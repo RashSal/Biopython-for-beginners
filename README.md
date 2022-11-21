@@ -25,4 +25,32 @@ For example, we have the E. coli K12 chromosome as a FASTA file NC_000913.fna an
 convert.py
 
 #Filtering a sequence file
+Suppose we wanted to filter a FASTA file by length, for example exclude protein sequences less than 100 amino acids long.
+you can run the following script:
+
+filter.py
+filter1.1.py
+filter1.2.py
+
+#Editing sequences
+
+A very common task is pulling out particular sequences from a large sequence file.
+Python strings, Biopython Seq and SeqRecord objects can all be sliced to extract a sub-sequence or partial record. In this case, we want to take everything up to but excluding the final letter:
+you can run the following script:
+
+edit.py
+
+#Working with Sequence Features
+Doing a print like this tries to give a human readable display. There are three key properties:
+.type which is a string like CDS or gene.
+.location which describes where on the genome this feature is
+.qualifiers which is a puthon dictionary full of all the annotation for the feature (things like gene identifiers).
+
+for example you can use the following scripts:
+
+filter_2.py
+total_gene_lengths.py
+
+
+
 
