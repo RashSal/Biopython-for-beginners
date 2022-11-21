@@ -17,3 +17,12 @@ The following scripts can be used to check all the protein sequences starting wi
 example scripts:
 1. check_start_met.py
 2. check_start_met_1.py
+
+#Converting a sequence file
+
+For example, we have the E. coli K12 chromosome as a FASTA file NC_000913.fna and as a GenBank file NC_000913.gbk. Suppose we only had the GenBank file, and wanted to turn it into a FASTA file, how can we do it. The following scripts can help ypu with that.
+
+convert.py
+
+#Filtering a sequence file
+
