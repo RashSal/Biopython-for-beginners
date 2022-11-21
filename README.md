@@ -12,4 +12,8 @@ example scripts:
 
 #Checking proteins starting with methionine
 
+The following scripts can be used to check all the protein sequences starting with a methionine (represented as the letter "M" in the standard IUPAC single letter amino acid code), and to count how many records fail this. 
 
+example scripts:
+1. check_start_met.py
+2. check_start_met_1.py
